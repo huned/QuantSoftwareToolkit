@@ -35,8 +35,9 @@ brew install scipy
 brew install matplotlib
 
 echo "Create QSTK directory"
-mkdir ~/QSTK
-cd ~/QSTK
+mkdir $QSTK_DIR && cd $QSTK_DIR
+#mkdir ~/QSTK
+#cd ~/QSTK
 # virtualenv env --distribute --system-site-packages
 # source ~/QSTK/env/bin/activate
 
